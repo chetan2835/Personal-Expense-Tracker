@@ -1,0 +1,39 @@
+body {
+    background-color: #f0f2f5;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  #expense-form input,
+  #expense-form select {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #expense-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    padding: 12px 15px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+  }
+  
+  #expense-list .badge {
+    font-size: 0.85em;
+    margin-left: 10px;
+  }
+  
+  #expense-list small {
+    margin-left: auto;
+    margin-right: 15px;
+  }
+  
+  .delete-btn {
+    transition: 0.3s;
+  }
+  
+  .delete-btn:hover {
+    background-color: #dc3545 !important;
+  }
+  
